@@ -1,6 +1,14 @@
 
 
 ---------------------------
+Merge vs Rebase
+---------------------------
+
+
+Merge keeps the history of independent branch development and then converges it with a merge commit.
+Rebase rewrites the history to make it appear as if the changes on the feature branch were made starting from the latest commit on the main branch, resulting in a cleaner, linear history.
+
+---------------------------
 git stash
 ---------------------------
 
