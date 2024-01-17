@@ -1,0 +1,20 @@
+
+
+---------------------------
+git stash
+---------------------------
+
+Use Cases
+Switching Branches: If you need to switch branches, but you're not ready to commit your current work, you can stash your changes, switch branches, and then reapply the stash later.
+
+Cleaning Working Directory: When you need a clean working directory (perhaps to test a build), but you're not ready to commit your changes, stashing allows you to temporarily set aside these changes.
+
+Integrating Updates: If you need to pull new changes from a remote repository but have uncommitted work, you can stash your changes, pull the updates, and then reapply your stash.
+
+
+Things to Remember
+
+Stashed changes are local to your repository; they are not transferred to the server when you push.
+Stashes do not include untracked or ignored files by default. To include untracked files in your stash, use git stash -u.
+Stashes are not a substitute for commits. They are meant for temporary storage of changes and should not be used for keeping long-term changes safe.
+Using git stash is a convenient way to manage the workflow without committing half-done work, keeping the repository clean and the work organized.
