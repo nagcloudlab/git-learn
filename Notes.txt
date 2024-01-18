@@ -26,3 +26,30 @@ Stashed changes are local to your repository; they are not transferred to the se
 Stashes do not include untracked or ignored files by default. To include untracked files in your stash, use git stash -u.
 Stashes are not a substitute for commits. They are meant for temporary storage of changes and should not be used for keeping long-term changes safe.
 Using git stash is a convenient way to manage the workflow without committing half-done work, keeping the repository clean and the work organized.
+
+
+
+
+-------------------------------------------------------------------
+
+Removing a Submodule
+
+
+Delete the relevant section from the .gitmodules file.
+Delete the relevant section from .git/config.
+Run git rm --cached path_to_submodule (no trailing slash).
+Commit and delete the now untracked submodule files.
+
+-------------------------------------------------------------------
+
+Use Cases for git reflog
+
+Recovering Lost Commits: 
+If you accidentally reset or rebase and lose commits, you can find the lost commit's SHA-1 in the reflog and reset to it.
+
+Debugging: 
+Understanding the sequence of actions taken in a repository, which can be helpful in troubleshooting issues.
+
+Audit Trail: 
+The reflog serves as a record of what actions were taken and when, though it's not a permanent log.
+
