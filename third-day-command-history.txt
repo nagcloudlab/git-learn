@@ -1,0 +1,855 @@
+    1  git 
+    2  sudo apt update
+    3  sudo apt install git
+    4  git --version
+    5  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
+    6  sudo apt  install curl 
+    7  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
+    8  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    9  source ~/.bashrc
+   10  nvm list-remote
+   11  nvm install v20.11.0
+   12  node -v
+   13  npm -v
+   14  cd
+   15  cd Downloads/
+   16  ls
+   17  ls -lah
+   18  sudo chmod +x code_1.85.1-1702462158_amd64.deb 
+   19  ./code_1.85.1-1702462158_amd64.deb 
+   20  code_1.85.1-1702462158_amd64.deb 
+   21  sudo nano ~/.bashrc
+   22  gdfg
+   23  ghgfjh
+   24  sudo nano ~/.bashrc
+   25  ls
+   26  kubectl get pods
+   27  sudo apt update
+   28  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   29  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   30  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   31  sudo apt update
+   32  apt-cache policy docker-ce
+   33  sudo apt install docker-ce
+   34  sudo systemctl status docker
+   35  sudo usermod -aG docker ${USER}
+   36  su - ${USER}
+   37  groups
+   38  sudo usermod -aG docker username
+   39  docker
+   40  docker-compose
+   41  docker run hello-world
+   42  sudo apt  install docker-compose
+   43  docker-compose help
+   44  docker login
+   45  sudo snap install multipass
+   46  multipass list
+   47  code .
+   48  mkdir strimzi
+   49  cd strimzi/
+   50  ls
+   51  code .
+   52  node index.js 
+   53  git clone http://github.com/blt-react-batch2
+   54  git clone http://github.com/nagcloudlab/blt-react-batch2
+   55  cd blt-react-batch2/
+   56  code .
+   57  cd backend-service/
+   58  npm i
+   59  npm start
+   60  git config --global user.email "nagcloudlab@gmail.com"
+   61  git config --global user.name "Nag"
+   62  npx ceate-react-app 11-react-testing-demo
+   63  npx create-react-app 11-react-testing-demo
+   64  cd blt-react-batch2/
+   65  cd backend-service/
+   66  npm start
+   67  npm init
+   68  npm i jest
+   69  npm run test
+   70  cd blt-react-batch2/
+   71  cd 6-shop-it-v3
+   72  npm i
+   73  npm start
+   74  cd ..
+   75  npm create vite@latest react-router-demo -- --template react
+   76  cd react-router-demo/
+   77  npm i
+   78  npm install react-router-dom localforage match-sorter sort-by
+   79  code .
+   80  npm run dev
+   81  code .
+   82  npm run dev
+   83  cd ..
+   84  cd 6-shop-it-v3
+   85  npm start
+   86  cd ..
+   87  cd 11-react-testing-demo/
+   88  npm start
+   89  cd ..
+   90  r, -r jest-quick-start/
+   91  rm -r jest-quick-start/
+   92  cd 11-react-testing-demo/
+   93  code .
+   94  npm run test
+   95  npm i
+   96  npm run test
+   97  cd blt-react-batch2/
+   98  cd backend-service/
+   99  npm start
+  100  curl http://localhost:8080/api/v1/products | jq
+  101  sudo apt  install jq
+  102  curl http://localhost:8080/api/v1/products | jq
+  103  cd blt-react-batch2/
+  104  cd 9-shop-it-v3/
+  105  npm run build
+  106  code .
+  107  cd build/
+  108  hppt-server
+  109  http-server
+  110  cd ..
+  111  npm run build
+  112  cd build/
+  113  http-server
+  114  cd ..
+  115  npm run build
+  116  cd build/
+  117  http-server
+  118  cd ..
+  119  npx create-next-app@latest play-with-nextjs --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
+  120  cd play-with-nextjs/
+  121  code .
+  122  npm run dev
+  123  npm i
+  124  npm run dev
+  125  cd ..
+  126  code .
+  127  live-server
+  128  npm i http-server -g
+  129  http-server
+  130  cd ..
+  131  npm run build
+  132  cd build/
+  133  http-server
+  134  cd
+  135  echo $XDG_SESSION_TYPE
+  136  sudo nano /etc/gdm3/custom.conf
+  137  reboot
+  138  mkdir dev2
+  139  cd dev2/
+  140  git clone https://github.com/nagcloudlab/foo-repo
+  141  cd foo-repo/
+  142  git config --local user.name "dev2"
+  143  git config --local user.email "dev2@mail.com"
+  144  code .
+  145  git status
+  146  git barcnh
+  147  git status
+  148  git pull
+  149  git log
+  150  git status
+  151  git add calc.js 
+  152  git commit -m "calc add()"
+  153  git pull
+  154  ng g help
+  155  ng version
+  156  sudo npm i @angulae/cli -g
+  157  npm
+  158  sudo npm i @angulae/cli -g
+  159  sudo npm i @angular/cli -g
+  160  npm i @angular/cli -g
+  161  ng g help
+  162  ng g module products
+  163  ng g module products --project shop-ui-v2
+  164  ng g module reviews --project shop-ui-v2
+  165  ng g module cart --project shop-ui-v2
+  166  ng g module shared --project shop-ui-v2
+  167  ng g module app --project shop-ui-v2
+  168  ng g module app-routing --project shop-ui-v2
+  169  ng g s products --project shop-ui-v2
+  170  ng g s products/products --project shop-ui-v2
+  171  ng g help  --project shop-ui-v2
+  172  ng g g activate --project shop-ui-v2
+  173  ng g g deactivate --project shop-ui-v2
+  174  git --version
+  175  git clone https://github.com/nagcloudlab/foo-repo
+  176  ls -h
+  177  cd foo-repo/
+  178  git status
+  179  git remote -v
+  180  ls
+  181  code .
+  182  cd
+  183  cd dev1/foo-repo/
+  184  git config --local user.name "dev1"
+  185  git config --local user.email "dev1@mail.com"
+  186  code .
+  187  git status
+  188  git branch
+  189  git branch cat
+  190  git branch
+  191  git checkout cat
+  192  git branch
+  193  git log
+  194  echo "Schrödinger" > cat.txt
+  195  git status
+  196  git add cat.txt
+  197  git commit -m "Create quantum cat."
+  198  git log
+  199  git checkout master
+  200  git branch
+  201  git log
+  202  ls
+  203  git checkout cat
+  204  ls
+  205  git checkout cat
+  206  git checkout master
+  207  ls
+  208  git checkout cat
+  209  git checkout master
+  210  git checkout cat
+  211  git log
+  212  git checkout master
+  213  git log
+  214  git branch
+  215  git checkout master
+  216  git merge cat
+  217  git log
+  218  ls
+  219  git brancg -d cat
+  220  git branch -d cat
+  221  git branch
+  222  git checkout -b admin
+  223  git branch
+  224  git add admin/dashboard.html 
+  225  git commit -m 'Add dashboard'
+  226  git add admin/users.html 
+  227  git commit -m 'Add user admin'
+  228  git checkout master
+  229  git pull
+  230  touch store.rb
+  231  git commit -m 'Add store.rb'
+  232  git add store.rb 
+  233  git commit -m 'Add store.rb'
+  234  touch product.rb
+  235  git add product.rb 
+  236  git commit -m 'Add product.rb'
+  237  git log
+  238  git push -u origin master
+  239  git status
+  240  git log
+  241  git checkout admin
+  242  git log
+  243  git branch
+  244  git checkout master
+  245  git merge admin
+  246  git log
+  247  git checkout -b dog
+  248  ls
+  249  git status
+  250  git checkout master
+  251  ls
+  252  git branch
+  253  git branch dog
+  254  git checkout dog
+  255  ls
+  256  git status
+  257  git checkout master
+  258  touch m.txt
+  259  ls
+  260  git status
+  261  git checkout dog
+  262  ls
+  263  git branch
+  264  git status
+  265  git add dog.txt 
+  266  git checkout master
+  267  git branch
+  268  ls
+  269  git checkout dog
+  270  git status
+  271  git commit -m 'add dog.txt'
+  272  git status
+  273  git checkout master
+  274  ls
+  275  git branc
+  276  git checkout dog
+  277  git status
+  278  git checkout master
+  279  git commit -m 'modify dog.txt'
+  280  git add dog.txt 
+  281  git commit -m 'modify dog.txt'
+  282  git checkout master
+  283  git branch
+  284  git status
+  285  git add --all
+  286  git commit -m 'modified README.md & add m.txt"
+  287  git commit -m 'modified README.md & add m.txt'
+  288  git status
+  289  git 
+  290  git checkout dog
+  291  git statis
+  292  git status
+  293  git add README.md 
+  294  git commit -m "modify READE.md with line four"
+  295  git checkout master
+  296  git merge dog
+  297  cat README.md 
+  298  git status
+  299  git add --all
+  300  git status
+  301  git commit -m "fix merge conflict"
+  302  git push
+  303  git status
+  304  git log
+  305  git merge -h
+  306  git add calc.js 
+  307  git commit -m "calc add()"
+  308  git push
+  309  git log
+  310  git pull
+  311  git status
+  312  git pull
+  313  git branch master
+  314  git pull master
+  315  git pull origin master
+  316  git branch -d admin
+  317  git branch -d dog
+  318  git branch
+  319  git pull
+  320  git config pull.rebase false
+  321  git pull
+  322  git staus
+  323  git status
+  324  git add --all
+  325  git status
+  326  git commit -m 'args with x & y'
+  327  cd
+  328  git clone http://github.com/nagcloudlab/ntt-batch4
+  329  cd ntt-batch4/
+  330  ls
+  331  cd play-with-angular/
+  332  npm start --project shop-ui
+  333  npm i
+  334  npm start --project shop-ui
+  335  code .
+  336  npm start --project shop-ui
+  337  cd projects/
+  338  ls
+  339  cp shop-ui/ shop-ui-v2/
+  340  cp -r shop-ui/ shop-ui-v2/
+  341  ls
+  342  npm start --project shop-ui-v2
+  343  cd ..
+  344  git clone https://github.com/gothinkster/angular-realworld-example-app
+  345  cd angular-realworld-example-app/
+  346  tm -r .git
+  347  rm -r .git
+  348  ls -lah
+  349  rm -r .git
+  350  ls -lah
+  351  npm i
+  352  cd ..
+  353  rm -r angular-realworld-example-app/
+  354  cd ..
+  355  git clone https://github.com/gothinkster/angular-realworld-example-app
+  356  cd angular-realworld-example-app/
+  357  npm i
+  358  code .
+  359  npm start
+  360  npm run build --project shop-ui-v2
+  361  cd play-with-angular/
+  362  npm run build --project shop-ui-v2
+  363  java c App.java 
+  364  javac App.java 
+  365  java
+  366  javac
+  367  sudo apt install default-jdk
+  368  jps
+  369  jstack 31172
+  370  jps
+  371  jstack 37520
+  372  java --version
+  373  cat /etc/os-release 
+  374  sudo apt install openjdk-17-jre-headless
+  375  java --version
+  376  cd /home/nag/IdeaProjects/backed-service
+  377  ./gradlew build
+  378  ls build/libs/
+  379  java --version
+  380  java -jar build/libs/backed-service-0.0.1-SNAPSHOT.jar 
+  381  ./gradlew build
+  382  java -jar build/libs/backed-service-0.0.1-SNAPSHOT.jar 
+  383  curl-w "\n"  http://localhost:8080/greet
+  384  curl -w "\n"  http://localhost:8080/greet
+  385  sudo npm i loadtest -g
+  386  npm i loadtest -g
+  387  loadtest -rps 10 http://localhost:8080/hello
+  388  loadtest --rps 10 http://localhost:8080/hello
+  389  loadtest -rps 10 http://localhost:8080/greet
+  390  loadtest --rps 10 http://localhost:8080/greet
+  391  loadtest --rps 100 http://localhost:8080/greet
+  392  loadtest --rps 1000 http://localhost:8080/greet
+  393  curl-w "\n"  http://localhost:3000
+  394  loadtest --rps 100 http://localhost:3000
+  395  cd play-with-node/
+  396  node -v
+  397  node 1-core-concepts/1-blocking-IO.js 
+  398  cd 1-core-concepts/
+  399  node 1-blocking-IO.js 
+  400  node 2-non-blocking-IO.js 
+  401  node 3-events.js 
+  402  cd ntt-batch4/play-with-node/2-http-server/
+  403  ls
+  404  node -v
+  405  node http-server-v1.js 
+  406  node http-server-v2.js 
+  407  node http-server-v3.js 
+  408  node http-server-v2.js 
+  409  node http-server-v3.js 
+  410  node http-server-v4.js 
+  411  loadtest --rps 10 http://localhost:3000
+  412  curl -w "\n"  http://localhost:3000
+  413  curl -w "\n"  http://localhost:3000 --output ./Downloads
+  414  curl -w "\n"  http://localhost:3000 --output ./Downloads/
+  415  curl -w "\n"  http://localhost:3000 --output Downloads/
+  416  curl -w "\n"  http://localhost:3000 --output /home/nag/Downloads/
+  417  curl -w "\n"  http://localhost:3000 --output /home/nag/Downloads/f.pdf
+  418  loadtest --rps 10 http://localhost:3000
+  419  curl -w "\n"  http://localhost:3000 --output /home/nag/Downloads/f.pdf
+  420  npm i @vercel/postgres
+  421  npm i use-debounce
+  422  cd blt-react-batch2/
+  423  npx create-next-app@latest
+  424  cd play-with-nextjs/
+  425  tree
+  426  code .
+  427  npm run dev
+  428  cd ..
+  429  npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
+  430  cd nextjs-dashboard/
+  431  code .
+  432  npm run dev
+  433  mkdir myrepo
+  434  cd myrepo/
+  435  git init
+  436  git brancg
+  437  git branch
+  438  git branch -m main
+  439  git branch
+  440  echo "Hello World" > file.txt
+  441  ls
+  442  git status
+  443  git add file.txt 
+  444  git status
+  445  git commit -m "Intial commit"
+  446  git branch
+  447  git log
+  448  git branch feature
+  449  git checkout feature
+  450  echo "New feature" >> file.txt
+  451  git add file.txt
+  452  git commit -m "Add new feature"
+  453  git log
+  454  git checkout main
+  455  git merge feature
+  456  giit log --graph --all --oneline
+  457  git log --graph --all --oneline
+  458  mkdir myrepo2
+  459  git init
+  460  cd myrepo2/
+  461  git init
+  462  git branch -m main
+  463  echo "Hello World" > file.txt
+  464  git add file.txt
+  465  git commit -m "Initial commit"
+  466  git branch
+  467  git log --graph --all --oneline
+  468  git branch feature
+  469  git checkout feature
+  470  echo "New feature" >> file.txt
+  471  git add file.txt
+  472  git commit -m "Add new feature"
+  473  cd ..
+  474  mv myrepo2/ ~/
+  475  cd
+  476  cd myrepo2/
+  477  git status
+  478  git branch
+  479  git log
+  480  git checkout main
+  481  echo "Changes in main" >> file.txt
+  482  git add file.txt
+  483  git commit -m "Update in main branch"
+  484  git branch
+  485  git merge feature
+  486  code .
+  487  cat file.txt 
+  488  git status
+  489  git add .
+  490  git status
+  491  git commit -m 'merge feature branch'
+  492  git log --graph --all --oneline
+  493  cd ..
+  494  cd myrepo
+  495  git log --graph --all --oneline
+  496  cd ..
+  497  cd myrepo2/
+  498  git branch
+  499  git log
+  500  git log --graph --all --oneline
+  501  cd ..
+  502  ls
+  503  cd dev1/foo-repo/
+  504  git remote show origin
+  505  git tags
+  506  git tag
+  507  git tag -a v0.0.3 -m "version 0.0.3"
+  508  git tag
+  509  git push --tags
+  510  code .
+  511  git config --list
+  512  git config --list --local
+  513  git config --list --global
+  514  cd
+  515  mkdir myrepo3
+  516  cd myrepo3/
+  517  git init
+  518  echo "Hello World" > file.txt
+  519  git add file.txt 
+  520  git commit -m "Initial commit"
+  521  git branch
+  522  git log
+  523  git reset --soft HEAD^
+  524  git reset --soft HEAD~1
+  525  git reset --soft 
+  526  git status
+  527  git log
+  528  git reset --soft  be36729877d62e16f44236ba514bd9f8bcb05581
+  529  git status
+  530  touch file2.txt
+  531  git status
+  532  git add file2.txt 
+  533  ls
+  534  git commit -m "file2 commit"
+  535  git log
+  536  git reset --soft HEAD^
+  537  git status
+  538  git log
+  539  touch file3.txt
+  540  git status
+  541  git add .
+  542  git commit -m "file2&file3 commit"
+  543  git log
+  544  touch file4.txt
+  545  git add file4.txt 
+  546  git commit --amend -m "with file4.txt"
+  547  git reset --soft HEAD^
+  548  git log
+  549  git commit --amend -m "with file4.txt"
+  550  git status
+  551  git log
+  552  rm -r my*
+  553  rm -r myr*
+  554  cd
+  555  rm -r my*
+  556  mkdir repo
+  557  cd repo/
+  558  git init
+  559  git status
+  560  echo "Hello World" > file.txt
+  561  git add file.txt
+  562  git commit -m "Initial commit"
+  563  git log
+  564  git commit -m "Initial commit"
+  565  git checkout feature
+  566  git branch feature
+  567  git checkout feature
+  568  echo "New feature" >> file.txt
+  569  git add file.txt
+  570  git commit -m "Add new feature"
+  571  git log --oneline --graph
+  572  git checkout master
+  573  git merge feature
+  574  git log --oneline --graph
+  575  git branch feature2
+  576  git checkout feature2
+  577  echo "New feature" >> file2.txt
+  578  git add file2.txt
+  579  git commit -m "Add new feature2"
+  580  git checkout master
+  581  echo "Changes in main" >> file.txt
+  582  git add file.txt
+  583  git commit -m "Update in main branch"
+  584  git merge feature2
+  585  git log
+  586  git log --oneline --graph
+  587  cd ..
+  588  mkdir repo2
+  589  cd repo2/
+  590  git init
+  591  echo "Hello World" > file.txt
+  592  git add file.txt
+  593  git commit -m "Initial commit"
+  594  git log
+  595  git branch feature
+  596  git checkout feature
+  597  echo "New feature" >> file.txt
+  598  git add file.txt
+  599  git commit -m "Add new feature"
+  600  git log
+  601  git branch
+  602  git checkout master
+  603  echo "Main branch update" >> file.txt
+  604  git add file.txt
+  605  git commit -m "Update in main branch"
+  606  git checkout feature
+  607  git log
+  608  git rebase master
+  609  code .
+  610  git rebase --continue
+  611  git log
+  612  git branch
+  613  git rebase main
+  614  git rebase --continue
+  615  git add .
+  616  git status
+  617  git rebase --continue
+  618  git log
+  619  git branch
+  620  git checkout master
+  621  git merge feature
+  622  git log --oneline --graph
+  623  cd ..
+  624  mkdir repo3
+  625  cd repo3/
+  626  git init
+  627  git branch -m main
+  628  touch file1.txt
+  629  git add file1.txt 
+  630  git commit -m "c1"
+  631  git log
+  632  git branch b1
+  633  git checkout b1
+  634  touch file2.txt
+  635  git add file2.txt 
+  636  git commit -m "c2"
+  637  git log
+  638  git branch main
+  639  touch file3.txt
+  640  git add file3.txt 
+  641  git commit -m "c3"
+  642  ls
+  643  git branch
+  644  git log
+  645  git checkout main
+  646  ls
+  647  touch file4.txt
+  648  git add file4.txt 
+  649  git commit -m "c4"
+  650  ls
+  651  git checkout b1
+  652  ls
+  653  git rebase main
+  654  ls
+  655  git log
+  656  ls
+  657  git branch
+  658  git checkout main
+  659  git branch b1
+  660  git merge b1
+  661  git log
+  662  git branch
+  663  git rebase -i HEAD~3
+  664  git log
+  665  cd checkout b1
+  666  git checkout b1
+  667  git branc
+  668  ls
+  669  code .
+  670  git status 
+  671  git checkout main
+  672  git checkout b1
+  673  git status 
+  674  touch file5.txt
+  675  git status 
+  676  git checkout main
+  677  git status
+  678  git checkout b1
+  679  git add .
+  680  git checkout main
+  681  git branch
+  682  git status
+  683  git branch
+  684  git checkout b1
+  685  git staus
+  686  git status
+  687  git stash
+  688  git status
+  689  ls
+  690  git stash apply
+  691  ls
+  692  git stash lish
+  693  git stash list
+  694  git stash pop
+  695  git stash list
+  696  git stash pop
+  697  git stash drop
+  698  git stash list
+  699  git stash 
+  700  git stash list
+  701  git stash 
+  702  touch file6.txt
+  703  git stash 
+  704  git status
+  705  git stash 
+  706  echo "hello" > file6.txt 
+  707  git stash 
+  708  git stash  --all
+  709  git status
+  710  git stash --list
+  711  git stash list
+  712  git stash pop
+  713  git stash list
+  714  git stash pop
+  715  git stash list
+  716  git stash save --keep-index
+  717  git status
+  718  git stash save --include-untracked 
+  719  git status
+  720  history
+  721  history > git-commands.txt
+  722  git cloen https://github.com/nagcloudlab/git-learn
+  723  git cloe https://github.com/nagcloudlab/git-learn
+  724  git clone https://github.com/nagcloudlab/git-learn
+  725  cd git-learn/
+  726  code .
+  727  curl http://localhost:3000/
+  728  npm install morgan
+  729  npm install body-parser
+  730  npm i cors
+  731  cd ntt-batch4/
+  732  ls
+  733  mkdir play-with-express
+  734  cd play-with-
+  735  cd play-with-express/
+  736  mkdir 2-basics
+  737  mv 2-basics/ 1-basics
+  738  ls
+  739  cd 1-basics/
+  740  npm init
+  741  ls
+  742  cat package.json 
+  743  npm i express
+  744  ls
+  745  cat package
+  746  cat package.json 
+  747  code .
+  748  node index.js 
+  749  npm i nodemon --save-dev
+  750  nodemon index.js 
+  751  npm start
+  752  cd ..
+  753  cd 2-todos-rest-api-impl/
+  754  code .
+  755  npm start
+  756  code .
+  757  npm start
+  758  cd ntt-batch4/
+  759  cd play-with-angular/
+  760  ng g app todos-web-ui
+  761  npm start --project todos-web-ui
+  762  mkdir myrepo
+  763  cd myrepo/
+  764  git init 
+  765  git branch -m main
+  766  git submodule add https://github.com/nagcloudlab/foo-repo foo-repo
+  767  ls
+  768  ls -lah
+  769  git status
+  770  git add .
+  771  git commit -m "Added submodule"
+  772  git log
+  773  cd foo-repo/
+  774  git log
+  775  cd ..
+  776  ls -lah
+  777  cat .gitmodules 
+  778  cd foo-repo/
+  779  git branch
+  780  git checkout master
+  781  touch foo.txt
+  782  git status
+  783  git commit -am "add foo.txt"
+  784  git add foo.txt 
+  785  git commit -am "add foo.txt"
+  786  cd ..
+  787  git status
+  788  git add foo-repo/
+  789  git commit -am "update foo-repo"
+  790  git status
+  791  ls
+  792  rm -rf myrepo/
+  793  mkdir myrepo
+  794  cd myrepo/
+  795  git init
+  796  git branch -m main
+  797  git  submodule add https://github.com/nagcloudlab/foo-repo
+  798  ls -lah
+  799  cat .gitmodules 
+  800  git status
+  801  git commit -m "Add foo-repo submodule."
+  802  git status
+  803  git log
+  804  ls
+  805  cd foo-repo/
+  806  git brancg
+  807  git branch
+  808  git checkout master
+  809  ls
+  810  touch foo.txt
+  811  git status
+  812  git add foo.txt 
+  813  git status
+  814  git commit -m 'add foo.txt"
+  815  git commit -m 'add foo.txt'
+  816  git log
+  817  cd ..
+  818  git status
+  819  ls foo-repo/
+  820  git add foo-repo
+  821  fir commit -m "update about foo-repo"
+  822  git commit -m "update about foo-repo"
+  823  git status
+  824  cd ..
+  825  git clone https://github.com/nagcloudlab/sf-repo
+  826  cd sf-repo/
+  827  git status
+  828  ls
+  829  git log
+  830  code .
+  831  git status
+  832  git add --all
+  833  git commit -m "diff b/w array"
+  834  git log
+  835  git remote -v
+  836  git push
+  837  cd
+  838  cd sf-repo/
+  839  mkdir nagabhushanamn
+  840  cd nagabhushanamn/
+  841  git clone https://github.com/nagabhushanamn/sf-repo
+  842  cd sf-repo/
+  843  code .
+  844  git add index.js 
+  845  git commit -m "random"
+  846  git push
+  847  npm init
+  848  npm i lodash
+  849  node index.js 
+  850  code .
+  851  cd ,,
+  852  cd ..
+  853  code .
+  854  history
+  855  history > third-day-command-history.txt
